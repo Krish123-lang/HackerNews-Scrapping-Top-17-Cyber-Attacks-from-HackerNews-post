@@ -22,9 +22,12 @@ ii) source env/scripts\activate
 ```
 
 3. All of the packages needed in this project is installed 😀.
-4. Then use `python3 upload_into_excel_file.py` to run the script.
-5. Open the Excel file. You must see the below page.
-![Screenshot (213)](https://user-images.githubusercontent.com/56486342/222658480-27595af6-2e27-47c9-af27-65699e322517.png)
+4. Then use `python3 main.py` to run the script.
+5. You can also see the html contents of the page by opening the ``` hacker.html ``` file in text editor.
+6. Open the Excel file. You must see the below page.
+
+![hackernews_scrape](https://github.com/Krish123-lang/Top-17-Cyber-Attacks-from-HackerNews-post/assets/56486342/4047cd7c-6a19-4001-97d2-f2491daeed2c)
+
 
 
 Thank You. 🙏
