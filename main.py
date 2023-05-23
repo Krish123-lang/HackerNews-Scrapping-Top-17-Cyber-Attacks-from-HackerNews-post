@@ -8,8 +8,8 @@ r = requests.get(url)
 soup = BeautifulSoup(r.text, 'html.parser')
 
 
-with open(r'F:\SCRAPPPPY\hacker_news\hacker.html', 'w') as h:
-    h.write(r.text)
+# with open(r'hacker.html', 'w') as h:
+#     h.write(r.text)
 
 
 data = soup.find_all('div', class_='body-post clear')
@@ -46,4 +46,4 @@ for attack in data:
     posts.append(post)
 
 df = pd.DataFrame(posts)
-df.to_csv(r'F:\SCRAPPPPY\hacker_news\Cyber_Attack.csv', index=None)
+df.to_csv(r'Cyber_Attack.csv', index=None)
